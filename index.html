@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>YUMMY Restaurant</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+   <style>
+       body{
+           background-image: url('images/lineart-fast-food-pattern_67419-7.jpg');
+        }
+
+   </style>
+   <style>
+    @font-face{
+    font-family:'Main';
+    src: url('fonts/BarlowSemiCondensed-Bold.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family:'Readers';
+    src: url('fonts/Chewy-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+   </style>
+
+   <header>
+    <div class="containers">
+
+        <nav class="topbar">
+            <ul class="menu">
+                <li class="menu-item"><a href="index.html" class="logo">YUMMY!</a></li>
+                <li class="menu-item"><a href="index.html" class="menu-link">HOME</a></li>
+                <li class="menu-item"><a href="#" class="menu-link">|</a></li>
+                <li class="menu-item"><a href="about.html" class="menu-link">ABOUT US</a></li>
+            </ul>
+            </nav>
+        </header>
+    <div class="container">
+     <form class="box"  id="Post">
+        <h1 class="title">STAFF PASSWORD VALIDATION</h1>
+         <input type="password" name="" placeholder="ENTER PASSWORD" id="pass" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}">
+         <input type="buttom"  value="CHECK PASSWORD" id="check" onclick=" myCheck()">
+          </form>
+        </div>
+
+      <div id="message">
+           <p id="lower" class="invalid">A lowercase letter</p>
+           <p id="upper" class="invalid">A uppercase letter</p>
+           <p id="number" class="invalid">A number</p>
+           <p id="special" class="invalid">A special character</p>
+           <p id="length" class="invalid">Minimum 8 characters</p>  
+        </div>
+
+        <div class="back">
+            <h2 class="title">CUSTOMERS</h2>
+            <buttom class="btn-generat" id="randomUsers">PRESS HERE TO SEE OUR CUSTOMERS</buttom>
+            <div id="users"></div>
+         </div>
+
+
+<script src="./main.js"></script>   
+</body>
+</html>
