@@ -190,3 +190,374 @@ ul li{
     letter-spacing: 1px;
 }
 
+h3{
+
+    background-color:#737373;
+    color: #bd9865;
+    margin-bottom: 30px;
+    font-size: 40px;
+    padding: 50px 720px ;
+    grid-column: 1/-1;
+    text-align: center;
+    font-family: 'Readers';
+    letter-spacing: 12px;
+}
+
+h4{
+
+    box-shadow: 0 0 30px rgb(110, 94, 0);
+    color: #bd9865;
+    margin-bottom: 30px;
+    margin-top: 180px;
+    margin-left: -360px;
+    font-size: 40px;
+    padding: 30px 800px ;
+    grid-column: 1/-1;
+    text-align: center;
+    font-family: 'Readers';
+}
+
+.menu1{
+
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(207px,1fr));
+    grid-gap: 12px 15px;
+}
+
+.food-items{
+
+    display: grid;
+    position: relative;
+    left: -300px;
+    top: 360px;
+    grid-template-rows: auto 1fr;
+    border-radius: 15px;
+    background-color: #6f6f6f;
+    box-shadow: 0 0 10px rgb(110, 94, 0);
+    margin-left: -3px;
+    
+}
+
+.food-items img{
+
+    position: relative;
+    width: 100%;
+    border-radius: 15px 20px 0 0;
+}
+
+h6{
+
+    box-shadow: 0 0 30px rgb(110, 94, 0);
+    color: #bd9865;
+    margin-bottom: 30px;
+    margin-top: 380px;
+    margin-left: -1180px;
+    font-size: 40px;
+    padding: 30px 850px ;
+    grid-column: 1/-1;
+    text-align: center;
+    font-family: 'Readers';
+}
+.menu2{
+
+    padding: 0;
+    display: grid;
+    grid-template-columns: 260px 260px 260px 260px 260px;
+    grid-gap: 12px 15px;
+}
+
+.food-items2{
+
+    display: grid;
+    position: relative;
+    left: 150px;
+    top: 570px;
+    grid-template-rows: auto 1fr;
+    background-color: #6f6f6f;
+    border-radius: 15px;
+    grid-row-end: -170;
+    box-shadow: 0 0 10px rgb(110, 94, 0);
+    margin-left: 5px;
+    
+}
+.food-items2 img{
+
+    position: relative;
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+
+.menu3 h6{
+
+    box-shadow: 0 0 30px rgb(110, 94, 0);
+    color: #bd9865;
+    margin-bottom: 30px;
+    margin-top: 1520px;
+    margin-left: -270px;
+    font-size: 40px;
+    padding: 30px 730px ;
+    grid-column: 1/-1;
+    text-align: center;
+    font-family: 'Readers';
+}
+
+.menu3{
+
+    padding: 0;
+    display: grid;
+    grid-template-columns: 260px 260px 260px 260px 260px;
+    grid-gap: 12px 15px;
+}
+
+.food-items3{
+
+    display: grid;
+    position: relative;
+    left: -60px;
+    top: -1360px;
+    grid-template-rows: auto 1fr;
+    background-color: #6f6f6f;
+    border-radius: 15px;
+    grid-row-end: 120;
+    box-shadow: 0 0 10px rgb(110, 94, 0);
+    margin-left: 5px;
+    
+}
+.food-items3 img{
+
+    position: relative;
+    width: 100%;
+    border-radius: 15px 10px 0 0;
+}
+
+.menu4 h6{
+
+    box-shadow: 0 0 30px rgb(110, 94, 0);
+    color: #bd9865;
+    margin-bottom: 30px;
+    margin-top: 2570px;
+    margin-left: -490px;
+    font-size: 40px;
+    padding: 30px 730px ;
+    grid-column: 1/-1;
+    text-align: center;
+    font-family: 'Main';
+}
+.menu4{
+
+    padding: 0px;
+    display: grid;
+    grid-template-columns: 260px 260px 260px 260px 260px;
+    grid-gap: 12px 15px;
+}
+
+.food-items4{
+
+    display: grid;
+    position: relative;
+    left: -280px;
+    top: -390px;
+    grid-template-rows: auto 1fr;
+    background-color: #6f6f6f;
+    border-radius: 15px;
+    grid-row-end: 40;
+    box-shadow: 0 0 10px rgb(110, 94, 0);
+    margin-left: 5px;
+    
+}
+.food-items4 img{
+
+    position: relative;
+    width: 100%;
+    border-radius: 15px 10px 0 0;
+}
+
+.details{
+
+    padding: 20px 20px;
+    display: grid;
+    grid-template-rows: auto 1fr 160px;
+    grid-row-gap: 12px;
+}
+.details-sub{
+
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.details-sub{
+
+    font-family: 'Main';
+    color: #bd9865;
+    font-weight: 300;
+    font-size: 18px;
+}
+.price{
+
+    font-family: 'Main';
+    color: #bd9865;
+    text-align: right;
+}
+.details>p{
+
+    color: black;
+    font-size: 15px;
+    line-height: 28px;
+    font-weight: 400;
+    align-self: stretch;
+}
+.btn-add{
+
+    background-color: #bd9865;
+    border: none;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 800;
+    border-radius: 5px;
+    width: 180px;
+    padding: 10px 10px;
+}
+
+.cart{
+
+    width: 790px;
+    padding: 199px 95px;
+    position: absolute;
+    top: 570%;
+    left: 25%;
+    background-color: #737373;
+    box-shadow: 0 0 30px rgb(110, 94, 0);
+    border-radius: 24px;
+
+}
+.span{
+
+    display: block;
+
+}
+h2{
+
+    color: #bd9865;
+    text-align: center;
+    font-family: 'Readers';
+    font-size: 40px;
+    margin-top: -130px;
+}
+.cart-column {
+
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.cart-row {
+
+    display: flex;
+}
+
+.cart-item {
+
+    width: 45%;
+}
+
+.cart-price {
+
+    width: 20%;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.cart-quantity {
+
+    width: 35%;
+}
+
+.cart-item-title {
+
+    color: #333;
+    margin-left: .5em;
+    font-size: 1.2em;
+}
+
+.cart-item-image {
+
+    width: 75px;
+    height: auto;
+    border-radius: 10px;
+}
+.btn-danger {
+
+    color: white;
+    background-color: #95401c;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 100px;
+    padding: 10px 10px;
+}
+
+.cart-quantity-input {
+
+    height: 34px;
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid #56CCF2;
+    background-color: #eee;
+    color: #333;
+    padding: 0;
+    text-align: center;
+    font-size: 1.2em;
+    margin-right: 25px;
+}
+.cart-total { 
+
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.cart-total-title { 
+
+    font-weight: bold;
+    font-size: 1.5em;
+    color: black;
+    margin-right: 20px;
+    font-family: 'Main';
+}
+
+.cart-total-price {
+
+    color: #333;
+    font-size: 30px;
+}
+#veg-id{
+    
+    width: 25px;
+    height: 30px;
+}
+
+.footer {
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 7%;
+    width: 100%;
+    box-shadow: 0 0 30px rgb(110, 94, 0);
+    color: #bd9865;
+    font-family: 'Main';
+    font-size: 25px;
+    text-align: center;
+}
+#link {
+  
+    width: 25px;
+    height: 30px;
+}
+
+
+
