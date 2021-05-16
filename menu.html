@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MENU</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+ <body>
+     <!--Here is the backgrownd image of the site-->
+    <style>
+        body{
+            background-image: url('images/back.jpg');
+         }
+ 
+    </style>
+
+   <header>
+       <!--This is the heardes with my logo and nav bar-->
+    <div class="containers">
+
+        <nav class="topbar">
+            <ul class="menu">
+                <li class="menu-item"><a href="index.html" class="logo">YUMMY!</a></li>
+                <li class="menu-item"><a href="index.html" class="menu-link">HOME</a></li>
+                <li class="menu-item"><a href="#" class="menu-link">|</a></li>
+                <li class="menu-item"><a href="menu.html" class="menu-link">MENU</a></li>
+                <li class="menu-item"><a href="#" class="menu-link">|</a></li>
+                <li class="menu-item"><a href="customers.html" class="menu-link">CUSTOMERS</a></li>
+                <li class="menu-item"><a href="#" class="menu-link">|</a></li>
+                <li class="menu-item"><a href="about.html" class="menu-link">ABOUT</a></li>
+                
+            </ul>
+            </nav>
+        </header>
+        <!-- I add the fonts here because I couldn't make it work on the css-->
+        <style>
+            @font-face{
+            font-family:'Main';
+            src: url('fonts/BarlowSemiCondensed-Bold.ttf');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face{
+            font-family:'Readers';
+            src: url('fonts/AllertaStencil-Regular.ttf');
+            font-weight: normal;
+            font-style: normal;
+        }
+           </style>
+
+<div class="menu1">
+    <div class="heading">
+        <h3> MENU  </h3>
+    </div>
+    <div class="heading1">
+        <h4> STARTERS </h4>
+    </div>
+    <!--This is a block of code with my startrs. It will repeat for each item, it just have different names, price and descriptios-->
+    <div class="food-items">
+        <!--the food image-->
+        <img class="shop-image"  src="./images/nachos.jpg">
+        <div class="details">
+            <!-- Product name,price, details and veg tag-->
+            <span class="details-sub">LOADED NACHOS</span>
+                <span class="price"> €7,50 </span>
+                <img id="veg-id" src="./images/vegetarian.png">
+            <p>Served with jalapeño,guacamole and sour cream, topped with cheese sauce and tomato salsa garnis.</p>
+            <!--This is a buttom that function is to add the item to the cart-->
+            <button class="btn-add" type="btn">Add To Cart</button>
+        </div>
+    </div>
+
+    <div class="food-items">
+        <img class="shop-image" src="./images/Chicken-Wings.png">
+        <div class="details">
+            <span class="details-sub">GLAZED CHICKEN WINGS</span>
+                <span class="price"> €8 </span>
+            <p>Served with blue cheese mayonnaise, tossed in one of the following sauce:BBQ.</p>
+            <button class="btn-add" type="btn">Add To Cart</button>
+        </div>
+    </div>
+
+    <div class="food-items">
+        <img class="shop-image" src="./images/bread.jpg">
+        <div class="details">
+            <span class="details-sub">GARLEC BREAD WITH CHEESE</span>
+                <span class="price"> €5</span>
+                <img id="veg-id" src="./images/vegetarian.png">
+            <p>Crusty, cheese bread.</p>
+            <button class="btn-add" type="btn">Add To Cart</button>
+        </div>
+    </div>
+
+    <div class="food-items">
+        <img class="shop-image" src="./images/fig.jpg">
+        <div class="details">
+            <span class="details-sub">FIG AND GORGONZOLA TARTINES</span>
+                <span class="price"> €9</span>
+                <img id="veg-id" src="./images/vegetarian.png">
+            <p>With golden toasted Pugliese, slices of fresh fig.</p>
+            <button class="btn-add" type="btn">Add To Cart</button>
+        </div>
+    </div>
+<!-- Second block, it's follow the sabe principals of the upper block expecificatios-->
+    <div class="menu2">
+        <div class="heading1">
+            <h6> MAIN </h6>
+        </div>
+        <div class="food-items2">
+            <img class="shop-image" src="./images/salad.jpg">
+            <div class="details">
+                <span class="details-sub">GRILLED CHICKEN CEASER SALAD</span>
+                    <span class="price"> €13</span>
+                <p>Served with baby gem lettuce, herb croutons, crispy pancetta, aged Parmesan, anchovy Caesar dressing, pine nuts.</p>
+                <button class="btn-add" type="btn">Add To Cart</button>
+            </div>
+        </div>
+    
+        <div class="food-items2">
+            <img class="shop-image" src="./images/bef.jpg">
+            <div class="details">
+                <span class="details-sub">ROASTED PRIME RIB OF BEEF</span>
+                    <span class="price"> €14</span>
+                <p>Served with chive mash potato, savoury herb stuffing, roast pod & red wine gravy.</p>
+                <button class="btn-add" type="btn">Add To Cart</button>
+            </div>
+        </div>
+    
+        <div class="food-items2">
+            <img class="shop-image" src="./images/salmo.jpg">
+            <div class="details">
+                <span class="details-sub">ROASTED SALMON</span>
+                    <span class="price"> €14 </span>
+                <p>roasted with green herbs, server with grilled vegies.</p>
+                <button class="btn-add" type="btn">Add To Cart</button>
+            </div>
+        </div>
+        <div class="food-items2">
+            <img class="shop-image" src="./images/spaghetti.jpg">
+            <div class="details">
+                <span class="details-sub">BASIL PESTO SPAGHETTI</span>
+                    <span class="price"> €12</span>
+                    <img id="veg-id" class="veg-id" src="./images/vegetarian.png">
+                <p>Served with homehade fresh pesto, roasted tomatoes and vegies, and fresh mozzarella.</p>
+                <button class="btn-add" type="btn">Add To Cart</button>
+            </div>
+        </div>
+    </div>
+    <!-- Third block, it's follow the sabe principals of the upper block expecificatios-->
+        <div class="menu3">
+            <div class="heading1">
+                <h6> DESSERTS </h6>
+            </div>
+            <div class="food-items3">
+                <img class="shop-image" src="./images/cake.jpg">
+                <div class="details">
+                    <span class="details-sub">CHOCOLATE FUDGE CAKE</span>
+                        <span class="price"> €6 </span>
+                    <p>Indulgent chocolate cake with Belgian chocolate sauce and whipped cream.</p>
+                    <button class="btn-add" type="btn">Add To Cart</button>
+                </div>
+            </div>
+        
+            <div class="food-items3">
+                <img class="shop-image" src="./images/pancake.jpg">
+                <div class="details">
+                    <span class="details-sub">PANCAKE STACK</span>
+                        <span class="price"> €7</span>
+                    <p>Buttermilk pancakes with choice of Salted Caramel Sauce, Nutella, Lemon & Sugar, Maple Syrup or berries.</p>
+                    <button class="btn-add" type="btn">Add To Cart</button>
+                </div>
+            </div>
+        
+            <div class="food-items3">
+                <img class="shop-image" src="./images/pie.jpg">
+                <div class="details">
+                    <span class="details-sub">HOMEMADE APPLE PIE</span>
+                        <span class="price"> €6</span>
+                    <p>Stewed Bramley apples oven baked with short crust pastry and served with homemade vanilla pod custard and whipped cream.</p>
+                    <button class="btn-add" type="btn">Add To Cart</button>
+                </div>
+            </div>
+            <div class="food-items3">
+                <img class="shop-image" src="./images/sorbet.jpg">
+                <div class="details">
+                    <span class="details-sub">SORBET QUARTET</span>
+                        <span class="price"> €8</span>
+                    <p>Mini cups with four diferrent homehade flavors (Mango, Lemon&Watermelon, Peach, Raspberry ).</p>
+                    <button class="btn-add" type="btn">Add To Cart</button>
+                </div>
+            </div>
+        </div>
+        <!-- Fourth block, it's follow the sabe principals of the upper block expecificatios-->
+    <div class="menu4">
+        <div class="heading1">
+            <h6> DRINKS </h6>
+        </div>
+        <div class="food-items4">
+            <img class="shop-image" src="./images/pint.jpg">
+            <div class="details">
+                <span class="details-sub">PINT OF BEER</span>
+                    <span class="price"> €5 </span>
+                <p>Guinness, Heineken, Coors Ligh, Orchard Thieve.</p>
+                <button class="btn-add" type="btn">Add To Cart</button>
+            </div>
+        </div>
+    
+        <div class="food-items4">
+            <img class="shop-image" src="./images/juice.jpg">
+            <div class="details">
+                <span class="details-sub">REFRESHING JUICE</span>
+                    <span class="price"> €4</span>
+                <p>Refreshing homemade oranje juice.</p>
+                <button class="btn-add" type="btn">Add To Cart</button>
+            </div>
+        </div>
+    
+        <div class="food-items4">
+            <img class="shop-image" src="./images/refri.jpg">
+            <div class="details">
+                <span class="details-sub">SOFT DRINK</span>
+                    <span class="price"> €5</span>
+                <p> Coca-Cola, 7up, Fanta.</p>
+                <button class="btn-add" type="btn">Add To Cart</button>
+            </div>
+        </div>
+        <div class="food-items4">
+            <img class="shop-image" src="./images/gt.jpg">
+            <div class="details">
+                <span class="details-sub">GIN TONIC</span>
+                     <span class="price"> €9</span>
+                <p>Tanqueray gin with tonic water, garnish grapefruit.</p>
+                <button class="btn-add" type="btn">Add To Cart</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!--This block is the cart-->
+<section class="container content-section">
+    <div class="cart">
+    <h2 class="section-header">CART</h2>
+    <div class="cart-row">
+        <!-- those classes get create a block for the products-->
+        <span class="cart-item cart-header cart-column">ITEM<br></span>
+        <span class="cart-price cart-header cart-column">PRICE<br></span>
+        <span class="cart-quantity cart-header cart-column">QUANTITY<br></span>
+    </div>
+    <!-- this part create the total bill -->
+    <div class="cart-items"></div>
+    <div class="cart-total">
+        <strong class="cart-total-title">Total-Bill</strong>
+        <span class="cart-total-price">€0</span>
+    </div>
+</div>
+</section>
+<script src="./js/cart.js" async></script>   
+</body>
+</html>
