@@ -1,0 +1,43 @@
+document.getElementById('randomUsers').addEventListener('click', getData);
+
+function getData() {
+    // console.log('test');
+
+    //Get API
+    fetch('https://randomuser.me/api/?results=6')
+        .then(res => res.json())
+        .then(data => {
+            console.log(data);
+
+            let author = data.results;
+             console.log(author);
+
+            //Get Data Value
+            let output = "";
+
+            //Get Data Loop Through
+            author.forEach(function (lists) {
+                output += `
+                <div class="random">
+                    <div class="card mt-4 bg-light">
+                        <ul class="list-group">
+                            <li class="list-group-item"><center>Name: ${lists.name.first}</center></li>
+                            <li class="list-group-item"><center><img src="${lists.picture.large}"></center></li>
+                            <li class="list-group-item"><center>Phone Number: ${lists.cell}</center></li>
+                            <li class="list-group-item"><center>DOB: ${lists.dob.date}</center></li>
+                            <li class="list-group-item"><center>Age: ${lists.dob.age}</center></li>
+                            <li class="list-group-item"><center>Email ID: ${lists.email}</center></li>
+                            <li class="list-group-item"><center>Gender: ${lists.gender}</center></li>
+                            <li class="list-group-item"><center>City: ${lists.location.city}</center></li>
+                            <li class="list-group-item"><center>Country: ${lists.location.country}</center></li>
+                            <li class="list-group-item"><center>PostCode: ${lists.location.postcode}</center></li>
+                        </ul>
+                    </div>
+                </div> `;
+            });
+
+            //Show On Our Screen All Data
+            document.getElementById('users').innerHTML = output;
+
+        });
+};
